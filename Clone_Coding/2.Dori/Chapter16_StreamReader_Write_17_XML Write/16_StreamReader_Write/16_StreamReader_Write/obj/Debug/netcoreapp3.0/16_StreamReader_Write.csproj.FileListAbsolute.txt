@@ -1,0 +1,7 @@
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter16_StreamReader_Write\16_StreamReader_Write\16_StreamReader_Write\obj\Debug\netcoreapp3.0\16_StreamReader_Write.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter16_StreamReader_Write\16_StreamReader_Write\16_StreamReader_Write\obj\Debug\netcoreapp3.0\_16_StreamReader_Write.Form1.resources
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter16_StreamReader_Write\16_StreamReader_Write\16_StreamReader_Write\obj\Debug\netcoreapp3.0\16_StreamReader_Write.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter16_StreamReader_Write\16_StreamReader_Write\16_StreamReader_Write\obj\Debug\netcoreapp3.0\16_StreamReader_Write.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter16_StreamReader_Write\16_StreamReader_Write\16_StreamReader_Write\obj\Debug\netcoreapp3.0\16_StreamReader_Write.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter16_StreamReader_Write\16_StreamReader_Write\16_StreamReader_Write\obj\Debug\netcoreapp3.0\16_StreamReader_Write.AssemblyInfo.cs
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter16_StreamReader_Write\16_StreamReader_Write\16_StreamReader_Write\obj\Debug\netcoreapp3.0\16_StreamReader_Write.csproj.CoreCompileInputs.cache

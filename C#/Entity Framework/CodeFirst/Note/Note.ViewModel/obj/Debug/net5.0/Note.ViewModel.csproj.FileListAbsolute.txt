@@ -1,0 +1,12 @@
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/bin/Debug/net5.0/Note.ViewModel.deps.json
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/bin/Debug/net5.0/Note.ViewModel.dll
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/bin/Debug/net5.0/ref/Note.ViewModel.dll
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/bin/Debug/net5.0/Note.ViewModel.pdb
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/obj/Debug/net5.0/Note.ViewModel.csproj.AssemblyReference.cache
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/obj/Debug/net5.0/Note.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/obj/Debug/net5.0/Note.ViewModel.AssemblyInfoInputs.cache
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/obj/Debug/net5.0/Note.ViewModel.AssemblyInfo.cs
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/obj/Debug/net5.0/Note.ViewModel.csproj.CoreCompileInputs.cache
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/obj/Debug/net5.0/Note.ViewModel.dll
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/obj/Debug/net5.0/ref/Note.ViewModel.dll
+/Users/choi/Desktop/OneDrive/Source/C#/Enterprise architecture/Note/Note.ViewModel/obj/Debug/net5.0/Note.ViewModel.pdb

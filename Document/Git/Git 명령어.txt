@@ -1,0 +1,92 @@
+# 명령어
+
+- git init : 현재 경로가 저장소로 지정된다.
+- git config --global core.editor "nano" : Editor변경
+- git status : working tree 상태를 표시
+
+- git add 파일명 : add to staging area -> 추적할 파일을 추가
+- git add . : 현재 경로의 모든 파일을 추가하겠다.
+- git add 경로 : 해당 경로의 파일을 모두 추가하겠다.
+
+- git commit : create version (nano Editor가 표시된다-> 메시지 입력후 저장)
+- git commit -m "Message 1" : 버전이 생성되고 버전에 대한 메시지가 작성된다
+- git commit -am "Message 2" : 파일을 추가하고 버전이 생성되고 버전에 대한 메시지가 작성된다.
+
+- git log : show version -> 버전에 대한 기록을 보여준다.
+- git log --stat : 버전에 대한 기록과 포함된 파일들을 보여준다.
+- git log -p : 버전의 마지막 수정 내용을 표시한다.
+- git log --all : 모든 Branch의 log를 표시
+- git log --oneline : log를 한줄로 표시
+- git log --graph : log를 그래프 형태로 표시
+- git l : log정보를 한줄로 그래프 형태로 표시한다.
+
+- git diff : show chages -> 변경된 내용을 표시
+- git checkout 버전이름 : 입력한 버전 상태로 돌아간다.
+
+(버전 삭제)
+- git reset : 이 버전으로 돌아가겠다.
+- git reset --hard : 현재 수정하는 내용까지 모두 삭제하고 되돌리겠다.
+- git reset --soft
+- git reset --mixed
+
+(버전 되돌리기)
+- git revert : 이전 버전을 삭제하지 않고 원하는 위치로 되돌아간다.
+- git revert ver3 -> git revert ver2 : ver1으로 되돌아가기 위해서는 
+  순차적으로 위에서 부터 revert해야 소스가 꼬이지 않는다.
+
+(reset vs revert)
+- reset : 시간을 아예 과거의 특정 사건(commit)으로 되돌린다.
+- revert : 현재에 있으면서 과거의 특정 사건(commit)들만 없던 일로 만든다.
+
+- git branch : 현재 branch정보를 보여준다.
+- git branch apple : apple branch를 생성한다.
+- git checkout google : google branch로 이동한다.´ß
+  (현재 활성화된 Branch는 "*" 또는 "HEAD -> google" 표시를 통해 파악할수 있다.) 
+
+- git commit --amend : 로그 메시지를 수정할 수 있다.
+- git merge target : merge 내용을 적고 저장하면 merge가 진행된다.
+
+(원격 저장소 연결)
+- git remote add origin https://github.com/choi8803/my-repo.git
+  (git remote add {repository name} {remote address})
+- git remote : 원격저장소 보기
+- git remote -v : 원격 저장소와 주소 보기
+- git branch -M main : master branch 이름을 main으로 변경
+- git push -u origin main : 페어링, 트렉킹 -> 연결을 시켜주는 옵션이. -u 최초 한번만 설정/ 
+                            origin main : 지역 저장소의 main이 원격 저장소 main과 연결이된다.
+
+(원격 저장소 정보 가져오기)
+- git clone https://github.com/choi8803/my-repo.git
+  (git clone "remote address" "dir name" : dir name을 생략 할 경우 
+   my-repo 저장소 이름으로 생성됨)
+
+(push 403 error : 접근 권한이 없다고 에러가 발생할 경우 : 재인증이 필요)
+- git remote set-url origin https://choi@github.com/choi8803/my-repo.git
+  (git remote set-url origin https://{PC User Name}@github.com/{Git User Name}/{Repository Name}
+
+- git pull : remote에 저장된 데이터를 끌어온다.
+- git ull = git fetch; git merge origin/main : 동일한 기능을 한다.
+- git fetch : 원격 저장소에 최신 소스를 읽어오고 지역 저장소에는 반영되지 않는다.
+
+(Cherry pick)
+- git cherry-pick 'version Num' : 그 버전이 생성됬을때의 변화를 가져오는 것.
+  (특정 branch의 특정 버전을 가져와서 merge하고 싶을때)
+
+(Rebase)
+- git rebase {branch} : 옴길 branch를 체크아웃하고 이후에 추가될 타켓 브랜치를 입력한다.
+  init - master(m1, m2)    ==>  이 경우 topic 이후에 m1,m2를 추가하고 싶은 경우 
+       \ topic(t1,t2,t3)
+
+(Git 사용자 변경)
+- git config user.name : 현재 유저이름 확인
+- git config user.email : 현재 이메일 확인
+
+- git config --global user.name choi8803
+- git config --global user.email choijh225@naver.com
+- git remote set-url origin https://choi@github.com/choi8803/movie_app_2019
+
+
+- git config --global user.name cjhssi
+- git config --global user.email cjh@ssikor.co.kr
+- git remote set-url origin https://github.com/ssikor/ifms.web-proto
+

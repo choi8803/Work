@@ -1,0 +1,10 @@
+# 자료구조 (Queue, Stack)
+
+1. 목적 
+a.  using System.Collections; Class를 사용
+b. Queue 
+ - 선입선출 : 먼저 들어간 데이터가 먼저 나감
+ - Enqueue, Dequeue
+c. Stack 
+ - 후입선출 : 나중에 들어온 데이터가 먼저 나감
+ - Push, Pop

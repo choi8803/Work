@@ -1,0 +1,7 @@
+# Linq(링큐)
+
+목적
+1. LINQ (Language Integrated Query)
+2. Data Source(Table, List)에서 필요한 Data를 검색하는 식
+3. from, where, orderby, select 절로 구성
+

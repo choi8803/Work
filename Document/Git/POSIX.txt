@@ -1,0 +1,29 @@
+# POSIX(portable operating system interface)
+- 이식 가능 운영 체제 인터페이스 : 운영체제에 기반을 두는 일련의 표준 운영체제 인터페이스 
+
+- GUI (Graphic User Interface) : 자원 소모가 크다.
+
+- CLI (Command Line Interface) : 매우 작은 자원으로 동작이 가능하다.  
+
+
+# 실습
+
+POSIX 운영체제
+- Unix
+- Linux
+- MacOS
+-> Terminal을 사용
+
+POSIX가 아닌 운영체제
+- Windows
+- IOS
+- Android
+-> Git-scm.com > git dash : Emulator를 사용하면 POSIX형식으로 명령을 가능
+-> Secure Shell을 사용해서 실습가능
+
+
+# 상대경로 : ../ -> 현재 위치를 기준으로 경로 이동
+
+# 절대경로 : / -> 위치에 상관없이 절대적인 경로로 이동.
+
+

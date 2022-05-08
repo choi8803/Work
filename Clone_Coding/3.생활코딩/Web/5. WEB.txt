@@ -1,0 +1,16 @@
+
+# 기원
+
+1960 - Internet : 통신 시스템
+-> 2대의 컴퓨터가 정보를 주고 받는 일
+
+1990 - Web : 웹
+
+
+# 인터넷을 여는 열쇠 : 서버와 클라이언트
+
+Web Browser(정보를 요청) <---> Web Server(정보를 응답) 
+Client <---> Server 
+
+
+# 웹 공부 : web hosting --> web server 

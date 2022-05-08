@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{C1ADA939-49BC-4A6B-9B12-49CEA92D549E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="28_Exception/Form1.cs">
+    <Files>
+      <File FileName="28_Exception/Form1.cs" Line="114" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="28_Exception" expanded="True">
+            <Node name="28_Exception" expanded="True">
+              <Node name="Form1.cs" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.28__Exception PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

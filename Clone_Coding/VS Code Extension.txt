@@ -1,0 +1,24 @@
+VS Code Extension
+
+1) Auto Rename Tag 
+- Tag이름을 자동변환
+
+2) Prettier - Code formatter 
+- HTML, 자바스크립트, 타입스크립트, CSS 등 다양한 언어 형식을 잡아줌
+- 코드를 보기 좋게 정해진 코딩 컨벤션대로 정렬해주는 도구
+
+3) Material Icon Theme
+- 파일들 아이콘을 변경시켜주는 테마
+
+4) ESLint
+- linter는 소스코드를 분석해서 문법 에러, 버그를 찾고 보고해주는 도구
+- ESLint는 ES6까지도 잘 분석해줘서 가장 인기 많은 플러그인
+
+5) CSS Peek
+- HTML파일에서 CSS를 사용한 class의 해당 css파일 위치로 이동
+- HTML태그에서 css를 사용한 부분에 [ctrl]마우스 클릭 혹은 [F12]
+
+6) HTML CSS Support
+- CSS파일 속성 자동완성 기능 제공
+- HTML에서 CSS에 미리 써있는 class를 가져다 쓸수 있음
+- class작성후 [ctrl]+[spacebar]를 누르면 작성 가능

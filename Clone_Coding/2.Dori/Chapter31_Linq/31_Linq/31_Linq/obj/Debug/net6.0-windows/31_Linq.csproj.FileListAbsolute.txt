@@ -1,0 +1,17 @@
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\bin\Debug\net6.0-windows\31_Linq.exe
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\bin\Debug\net6.0-windows\31_Linq.deps.json
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\bin\Debug\net6.0-windows\31_Linq.runtimeconfig.json
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\bin\Debug\net6.0-windows\31_Linq.dll
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\bin\Debug\net6.0-windows\ref\31_Linq.dll
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\bin\Debug\net6.0-windows\31_Linq.pdb
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\_31_Linq.Form1.resources
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.AssemblyInfo.cs
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.dll
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\ref\31_Linq.dll
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.pdb
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter31_Linq\31_Linq\31_Linq\obj\Debug\net6.0-windows\31_Linq.genruntimeconfig.cache

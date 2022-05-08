@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{57E56734-7A2B-4928-841B-2ADC44B3F0A6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Note.DAL/NoticeDal.cs">
+    <Files>
+      <File FileName="Note.DAL/NoticeDal.cs" Line="16" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Note" expanded="True">
+            <Node name="BusinessLogicLayer" expanded="True" />
+            <Node name="Common" expanded="True" />
+            <Node name="DataAccessLayer" expanded="True">
+              <Node name="Note.DAL" expanded="True">
+                <Node name="NoticeDal.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="PresentationLayer" expanded="True">
+              <Node name="Note.MVC6" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PresentationLayer.Note.MVC6 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

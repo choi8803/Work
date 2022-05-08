@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5cf2fd8f-a0aa-4edb-982e-b0e0f0a4af7f": {
+      "ProjectGuid": "5cf2fd8f-a0aa-4edb-982e-b0e0f0a4af7f",
+      "DisplayName": "AspNetCoreWebApi",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

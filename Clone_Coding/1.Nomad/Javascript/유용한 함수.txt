@@ -1,0 +1,60 @@
+# function-scoped
+var :
+
+# block-scoped (es2015에서 추가됨)
+let : 재할당이 가능
+const :  재할당이 불가능
+
+
+for (let i=0; i<names.length; i++)
+{
+  console.log(names[i])
+}
+
+
+names.foreEach(function(item){
+   console.log(item)
+});
+
+#1 foreach
+names.foreEach((item, index)=>{console.log(item+index)}
+
+#2 map : 배열을 반환한다. (주로 배열안에 특정 객체를 가져올때 사용된다.)
+let data = names.map((item, index)=> {
+  return item+index
+}
+
+ex) ceoList = [ 
+   {name :"a", age:23, ceo:true},
+   {name :"b", age:33, ceo:false},
+   {name :"c", age:50, ceo:true}
+]
+
+let data = ceoList.map((item, index) =>{
+   return item.name + index
+}
+
+#3 filter : 조건에 맞는 값을 반환한다. (일치하는 전체를 반환)
+let data = ceoList.filter((item=>{
+   return item.age==23
+}
+
+#4 some : 항목중 하나라도 일치하는 값이 있으면 true를 반환
+let data = ceoList.some((item=>{
+   return item.startWith("L")
+}
+
+#5 every : 모두 일치하면 true를 반환
+let data = ceoList.every((item=>{
+   return item.length > 0
+}
+
+# find : 조건에 맞는 값을 반환한다. (일치하는 첫번째 값)
+let data = ceoList.find((item=>{
+   return item.length > 0
+}
+
+# findindex : 조건에 맞는 인덱스를 반환한다. 
+let data = ceoList.findindex((item=>{
+   return item.length > 0
+}

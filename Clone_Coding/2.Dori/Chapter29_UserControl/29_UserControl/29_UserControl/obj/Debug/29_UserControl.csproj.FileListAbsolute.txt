@@ -1,0 +1,12 @@
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\bin\Debug\29_UserControl.exe.config
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\bin\Debug\29_UserControl.exe
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\bin\Debug\29_UserControl.pdb
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\29_UserControl.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\_29_UserControl.Form1.resources
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\_29_UserControl.Properties.Resources.resources
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\_29_UserControl.UCInfo.resources
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\29_UserControl.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\29_UserControl.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\29_UserControl.exe
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\29_UserControl.pdb
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter29_UserControl\29_UserControl\29_UserControl\obj\Debug\29_UserControl.csproj.AssemblyReference.cache

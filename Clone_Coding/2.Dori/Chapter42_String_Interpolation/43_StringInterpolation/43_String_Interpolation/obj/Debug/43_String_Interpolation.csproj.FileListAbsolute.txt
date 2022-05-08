@@ -1,0 +1,7 @@
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter42_String_Interpolation\43_StringInterpolation\문자열보간\obj\Debug\43_String_Interpolation.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter42_String_Interpolation\43_StringInterpolation\문자열보간\obj\Debug\_String_Interpolation.Form1.resources
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter42_String_Interpolation\43_StringInterpolation\문자열보간\obj\Debug\문자열보간.Properties.Resources.resources
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter42_String_Interpolation\43_StringInterpolation\문자열보간\obj\Debug\43_String_Interpolation.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter42_String_Interpolation\43_StringInterpolation\문자열보간\obj\Debug\43_String_Interpolation.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter42_String_Interpolation\43_StringInterpolation\문자열보간\obj\Debug\문자열보간.exe
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter42_String_Interpolation\43_StringInterpolation\문자열보간\obj\Debug\문자열보간.pdb

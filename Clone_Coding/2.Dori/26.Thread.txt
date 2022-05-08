@@ -1,0 +1,17 @@
+# Thread
+1. 프로세스 내에서 실행되는 동작의 단위
+2. 여러개의 프로세스가 동시에 실행될 수 있도록 함
+3. 하나의 자원에 대해서 여러개의 Thread가 동시에 접근하게되면 
+   자원 관리에 문제가 발생할 수 있음.(Cross Thread)
+4. 위의 문제를 해결하기 위해 Thread를 사용 할 경우 
+   Invoke를 사용하여 Thread를 잠시 Main Thread쪽으로 위임 할 수 있음.
+
+#Method
+Start() : thread를 시작
+IsAlive : thread가 실행 중 인지 확인
+Abort() : thread를 강제종료
+Join() : thread가 종료 될 때까지 대기(혹은 설정 시간 동안 종료 될 때까지 대기)
+Interrupt() : thread가 대기 상태 일 경우 ThreadInterruptedException을 발생 시킴
+Suspend() : thread 일시 중단
+Resume() : 일시 중단 된 thread를 다시 시작
+Sleep(100) : 설정 시간 동안 thread 일시 중단

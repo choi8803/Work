@@ -1,0 +1,84 @@
+# Axious (액시오스)
+
+1. Axios란?
+- Node.js를 위한 Promise API를 활용하는 HTTP 비동기 통신 라이브러리
+
+2. Axios 특징
+- 운영환경에 따라 브라우저의 XMLHttpRequest 객체 또는 Node.js의 http api를 사용
+- Promise(ES6) API사용
+- 요청과 응답 데이터의 변형
+- HTTP 요청 취소
+- HTTP 요청과 응답을 JSON 형태로 자동변경
+
+3. axious vs fetch
+  axios 					/ fetch
+- 써드파티 라이브러리로 설치가 필요		/ 브라우저에 기본 내장되어 있음
+- XSRF 보호를 해준다. 			/ 별도 보호 없음
+- data 속성을 사용 				/ body 속성을 사용
+- data는 object를 포함한다. 			/ body는 문자열화 되어있다.
+- status가 200이고 statusText가 OK이면 성공 	/ 응답객체가 ok속성을 포함하면 성공
+- 자동으로 JSON데이터 형식으로 변환된다. 	/ .json()메서드를 사용해야 한다.
+- 요청을 취소할 수 있고 타임아웃을 걸 수 있다. 	/ 해당기능이 존재하지 않는다.
+- HTTP 요청을 가로챌수 있다. 		/ 기본적으로 제공하지 않는다.
+- download 진행에 대해 기본적인 지원을 함 	/ 지원하지 않음
+- 좀더 많은 브라우저에 지원됨 		/ Chrome 42+, Firefox 39+, Edge 14+, safari 10.1+ 지원
+
+4. Axios 설치
+(npm)
+- npm install axios
+
+(yarn)
+- yarn add axios
+
+5. Axios 문법
+axios({
+   url: 'https://test/api/cafe/list/today,	// 통신할 웹문서
+   method: 'get'	// 통신할 방식
+   data: {		// 인자로 보낼 데이터
+      foo: 'diary'
+   }
+});
+
+- url : 서버주소
+- method : 요청방식(Default: 'get')
+- baseURL : url을 상대경로로 쓸때 url맨 앞에 붙는 주소.
+- headers : 요청헤더
+- data : 요청방식이 'PUT', 'POST', 'PATCH'에 해당하는 경우 body에 보내는 데이터
+- params : URL 파라미터
+- timeout 
+- responseType : 서버가 응답해주는 데이터 타입(arraybuffer, document, json, text, stream, blob)
+- transformRequst : 서버에 전달되기전에 요청 데이터를 바꿀 수 있다.
+- transformResponse : 응답 데이터가 만들어지기 전에 변환 가능
+- withCredentials : cross-site access-control 요청을 허용 유무
+....
+
+1) axios GET
+
+axios.get('/user', {
+   params: {
+      Id: 12
+   }
+})
+.then(function (response) {
+   ...
+})
+.catch((error)=> {
+   ....
+})
+.finally(() => {
+   ....
+});
+
+async function getUser() {
+   try {
+      const response = await axios.get('/user', { params: { Id:12 } }).then(....
+      ...   
+   } catch (error) {
+      ...
+   }
+}
+
+
+
+참조 : https://inpa.tistory.com/entry/AXIOS-%F0%9F%93%9A-%EC%84%A4%EC%B9%98-%EC%82%AC%EC%9A%A9
+

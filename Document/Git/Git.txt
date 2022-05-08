@@ -1,0 +1,39 @@
+# Git의 역활 : 버전관리, 백업, 협업
+
+# Git 저장소
+- Working tree : 수정한 파일들이 존재하는 공간
+- Staging Area : add를 통해 버전으로 만들려는 파일들을 지정하고 
+                     이 지정된 파일들이 존재하는 공간
+- Repository : Staging Area에 있는 파일들이 Commit을 통해 저장소로 온다.
+
+# Git 종류
+
+1. TortoiseGit(window)
+
+2. Sourcetree : 복잡하지만 자유롭다.
+
+3. Git-scm.com : 본래의 git 프로그램 cmd창 형식
+- git log
+- git commit
+- git push
+-> 명령어를 통해 제어 
+
+# Branch & Confilict
+
+- Confilict : 같은 파일에 같은 위치를 수정한 경우 충돌이 발생
+
+- 3 way merge 
+
+Here / base / there / 2way merge / 3way merge
+A.     A      A.      A.           A
+H.     B.     B.      ?            H
+C.     C.     T.      ?            T
+H.     D.     T.      ?            ?
+
+# checkout : HEAD의 값을 바꾸는것(Head를 제어하는 기능)
+
+     HEAD
+         \
+Master.  Google
+          |
+  1   2   3 

@@ -1,0 +1,34 @@
+#github 
+- 소스 관리 및 서버를 무료로 제공해준다.
+
+
+# github - 가입 및 파일 업로드
+
+1) Create an account
+2) Sign in
+3) New Repository
+4) Add file 
+-> 위 과정을 통해 버전별로 소스 관리가 가능하다.
+
+
+# github - Server 사용방법(Web hosting)
+
+1) Settings
+2) > GitHub Pages
+3) > Source : "None" -> main" 변경 
+4) > Source > Save
+-> GitHub Pages에 "Your site is published at https://choi8803.github.io/Web1/"으로 표시된다.
+(위 주소로 사이트가 생성된다.)
+
+- My (create -> index.html) : Web Browser를 통해 github에 파일을 업로드
+                                              
+- Web Browser (요청 : index.html) <--> Web Server (응답 : http://choi8803.github.io/Web1)
+
+# web hosting
+1) 추천 검색 문구 : free static web hosting 
+2) 추천 호스팅 업체
+  - http://www.bitballon.com
+  - http://neocities.org
+  - Amazon S3
+  - Google Cloud Storage
+  - Azure Blob

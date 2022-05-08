@@ -1,0 +1,29 @@
+C:\Users\dori\source\repos\문자열보간\문자열보간\bin\Debug\문자열보간.exe.config
+C:\Users\dori\source\repos\문자열보간\문자열보간\bin\Debug\문자열보간.exe
+C:\Users\dori\source\repos\문자열보간\문자열보간\bin\Debug\문자열보간.pdb
+C:\Users\dori\source\repos\문자열보간\문자열보간\obj\Debug\문자열보간.csprojAssemblyReference.cache
+C:\Users\dori\source\repos\문자열보간\문자열보간\obj\Debug\문자열보간.Form1.resources
+C:\Users\dori\source\repos\문자열보간\문자열보간\obj\Debug\문자열보간.Properties.Resources.resources
+C:\Users\dori\source\repos\문자열보간\문자열보간\obj\Debug\문자열보간.csproj.GenerateResource.cache
+C:\Users\dori\source\repos\문자열보간\문자열보간\obj\Debug\문자열보간.exe
+C:\Users\dori\source\repos\문자열보간\문자열보간\obj\Debug\문자열보간.pdb
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\bin\Debug\문자열보간.exe.config
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\bin\Debug\문자열보간.exe
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\bin\Debug\문자열보간.pdb
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\obj\Debug\문자열보간.csprojResolveAssemblyReference.cache
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\obj\Debug\문자열보간.Form1.resources
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\obj\Debug\문자열보간.Properties.Resources.resources
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\obj\Debug\문자열보간.csproj.GenerateResource.Cache
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\obj\Debug\문자열보간.csproj.CoreCompileInputs.cache
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\obj\Debug\문자열보간.exe
+C:\Users\사용자\Desktop\문자열보간\문자열보간\문자열보간\obj\Debug\문자열보간.pdb
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\obj\Debug\문자열보간.csprojResolveAssemblyReference.cache
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\obj\Debug\문자열보간.Form1.resources
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\obj\Debug\문자열보간.Properties.Resources.resources
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\obj\Debug\문자열보간.csproj.GenerateResource.Cache
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\obj\Debug\문자열보간.csproj.CoreCompileInputs.cache
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\obj\Debug\문자열보간.exe
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\obj\Debug\문자열보간.pdb
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\bin\Debug\문자열보간.exe.config
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\bin\Debug\문자열보간.exe
+C:\Users\사용자\Desktop\문자열보간 (2)\문자열보간\문자열보간\bin\Debug\문자열보간.pdb

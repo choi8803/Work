@@ -1,0 +1,24 @@
+# Stream Reader / Stream Write
+
+# 목적
+1. 텍스트 파일을 읽거나 쓰기 위해 사용
+2. 불러올 때 StreamReader, 저장할 때 Stream Write Class를 사용
+3. System.IO.File Class에서 비슷한 기능의 함수를 제공
+
+# 사용
+1. Program File의 Log를 기록 하거나 기록된 Log를 읽어올 때 사용
+2. 프로그램 동작에 필요한 자료를 저장 해 두거나 불러와서 사용
+   (Save Data (Xml 형태나 DB 형태로 발전))
+3. 간단한 데이터 기록
+
+
+# System.IO.File Class
+
++ 불러올 때 : 
+  - File.ReadAllText("경로");		반환 : String
+  - File.ReadAllLines("경로");		반환 : String[]
+
++ 저장할 때
+  - File.WriteAllText("경로", "읽어올 텍스트파일");		반환 : Text File
+  - File WriteAllLines("경로", "배열 형태의 String Data");	반환 : Text File
+	

@@ -1,0 +1,35 @@
+﻿
+<Scaffold-DbContext>
+1. Scaffold 관련 설치
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet tool install -g dotnet-aspnet-codegenerator
+
+2. 명령어
+Scaffold-DbContext "Server=localhost;Database=BookStoresDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
+Scaffold-DbContext "Server=localhost;Database=BookStoresDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
+Scaffold-DbContext -Connection Name=BookStoresDB Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
+
+<Authentication>    //[#07. Authentication]
+1.app.UseAuthentication();      // program.cs
+
+2.AuthenticationHandler         // Add Handler Class
+3.AuthenticationSchemeOptions   // Setting SchemeOptions
+public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
+{
+    public BasicAuthenticationHandler(
+        IOptionsMonitor<AuthenticationSchemeOptions> options,
+        ILoggerFactory logger,
+        UrlEncoder encoder,
+        ISystemClock clock) :base(options, logger, encoder, clock)
+    {
+
+    }
+    protected override Task<AuthenticateResult> HandleAuthenticateAsync()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+4.AuthenticationHeaderValue

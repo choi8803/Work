@@ -1,0 +1,12 @@
+.hidden {
+    display: none;
+}
+
+button {
+    color: red;
+    font-weight: bold;
+}
+
+html {
+    font-family:Arial, Helvetica, sans-serif
+}

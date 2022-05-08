@@ -1,0 +1,17 @@
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\_30_Lambda.Form1.resources
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.AssemblyInfo.cs
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\bin\Debug\net6.0-windows\30_Lambda.exe
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\bin\Debug\net6.0-windows\30_Lambda.deps.json
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\bin\Debug\net6.0-windows\30_Lambda.runtimeconfig.json
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\bin\Debug\net6.0-windows\30_Lambda.dll
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\bin\Debug\net6.0-windows\ref\30_Lambda.dll
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\bin\Debug\net6.0-windows\30_Lambda.pdb
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.dll
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\ref\30_Lambda.dll
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.pdb
+C:\Users\User\OneDrive\Source\C#\Dori\Chapter30_Lambda\30_Lambda\30_Lambda\obj\Debug\net6.0-windows\30_Lambda.genruntimeconfig.cache

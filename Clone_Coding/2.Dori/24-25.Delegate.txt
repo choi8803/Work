@@ -1,0 +1,23 @@
+
+# Delegate 사용방법
+1. 사적적 의미 : 대리자
+2. C#에서는 함수 대리자의 의미로 사용
+3. 기본
+ - method와 동일한 Type의 delegate를 선언
+ - 선언한 delegate 변수를 생성
+ - 생성한 delegate에 사용할 method를 참조 시킴
+4. 콜백(Callback method)를 구현
+ - method의 인자로 delegate를 사용 하여 다른 함수에서 delegate함수를 호출해서 
+   사용하도록함.
+5. delegate의 일반화(delegate <T>)
+ - 일반화 Type으로 선언 할 경우 어떤 Type의 method든지 사용할 수 있음.
+6. delegate 체인
+ - +=, -=으로 함수를 연결하거나 해제해서 순서대로 호출 할 수 있음.
+
+# Delegate2 (delegate와 event) 
+1. delegate에 event를 추가해서 사용할 수 있다.
+2. 부모 Class에서 자식 Class의 Event를 확인하는 방법
+ 방법1 : 부모 Class가 자식 Class를 계속 보고 있으면서 상태가 바뀌는걸 확인한다.
+ 방법2 : 자식 Class에서 자신에게 Event를 발생했다고 부모 Class에게 알려준다.
+
+** 자식 클래스에서 부모 클래스에게 이벤트 알림

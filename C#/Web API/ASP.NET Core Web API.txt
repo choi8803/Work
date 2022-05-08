@@ -1,0 +1,92 @@
+#01 
+1) ASP.NET Core Web API + Entity Framework Core : Scaffold-DbContext
+ - Database -> Scaffold-DbContext -> DbSets & Models
+
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+2) DbSet & Model Create
+ex) Scaffold-DbContext "Server=localhost;Database=BookStoresDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+3) 이미 존재하는 경우 -force를 통해 강제로 다시 모델을 생성할 수 있다.
+ex) Scaffold-DbContext "Server=localhost;Database=BookStoresDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force 
+
+#02 appsettings.json에 DB설정 및 Scaffold
+1) "-Connection Name=BookStoresDB" : appsettings에 설정된 DB이름을 사용해서 모델을 생성한다.
+ex) Scaffold-DbContext -Connection Name=BookStoresDB Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
+
+2) Startup.cs 생성 & Program.cs 수정
+
+#03 GET / POST / PUT / DELETE 생성
+1) 
+ Client -(GET / POST / PUT / DELETE)-> REST API {...} -> Database
+ Client <---------(JSON / XML)--------- REST API {...} <- Database
+
+2) SSL certificate 에러가 발생하면 Settings > Enable SSL ... -> off로 설정
+
+#04 Loading Related Data(Eager Loading)
+1) 즉시로딩(Eager Loading) : 엔티티 매니저를 통해 엔티티를 조회하면 연관관계에 매핑되어 있는 엔티티도 함께 조회
+2) 지연로딩(Lazy Loading) : 엔티티 매니저를 통해 엔티티를 조회하면 연관관계에 매핑되어 있는 엔티티를 실제 사용할 때 조회
+
+3) Fetch 기본 전략 
+- N:1, 1:1 -> 즉시로딩
+- 1:N, N:N -> 지연로딩
+- 권장되는 사항은 모든 로딩을 지연 로딩으로가져오는 것입니다.
+
+4) Eager Loading으로 연관 데이터를 가져오기 위해 Microsoft.ApsNetCore.Mvc.NewtonsoftJson 설치 및 Config설정
+ConfigureServices 설정
+ - services.AddMvc(option => option.EnableEndpointRouting = false)
+                .AddNewtonsoftJson(opt => opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
+
+?? GraphQL vs REST 차이점 
+
+#05 Saving Related Data
+
+#06 Eager Loading vs Explict Loading
+
+#07 Authentication
+
+Ms SQL Server <--> Web API with EF Core <--> {JSON}
+
+Steps to follow
+1. app.UseAuthentication();  // 인증사용
+2. AuthenticationHandler 
+3. AuthenticationSchemeOptions // 인증 구성옵션??
+4. [Authorize]	// 승인하다
+5. services.AddAuthentication
+6. AuthenticateResult.Fail & Success
+7. AuthenticationHeaderValue
+
+SQL <-- http post login/with username and password -- API 
+SQL -- Authenticates and Sends user --> API 
+SQL <-- http get data/How do you authorize the request send user/password again -- API 
+
+#08 JWT Authorization
+Steps to follow
+1. Create SecretKey in AppSettings
+2. Install JwtBearer Package
+3. Generate Token after Authentication
+4. services.AddAuthentication
+5. JwtBearerDefaults
+6. AddJwtBearer
+7. [Authorize]
+
+SQL <-- http post login/with username and password -- API 
+SQL <-- Creates JWT with a secret key Returns JWT to the client -- API  
+           (비밀키를 JWT로 생성하고 Client에게 보내준다.)
+SQL <-- http get data/with JWT in Authorization Header -- API
+SQL -- Validates token & Returns the response --> API
+         (유효한 토큰과 응답을 반환한다.)
+
+#09 Refresh JWT
+Steps to follow
+1. Generate RefreshToken on Login
+2. API Call to Refresh JWT
+3. Make that API from Client
+
+
+
+
+
+
+

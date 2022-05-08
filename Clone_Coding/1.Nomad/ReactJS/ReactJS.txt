@@ -1,0 +1,53 @@
+#npx를 사용하기 위한 설치파일
+- https://nodejs.org/ : 최신버전 설치
+
+- Terminal > node -v : 명령어를 통해 설치여부 확인
+
+- npx create-react-app {folderName} : 현재 경로에 folderName으로 react app 환경이 설정된다.
+
+- npm start : 웹 사이트 실행
+- npm 종료 : Ctrl+C
+
+- npm i prop-types : Prop-Types 설치
+- npm install react-router-dom : Router-Dom
+
+(Github Publish)
+- npm i gh-pages : 결과물을 github Pages에 업로드 해주는 패키지
+- npm run build : 압축 및 최적화 > build 폴더 생성
++ package.json  
+   - "homepage":"https://choi8803.github.io/react-for-beginners" 코드 등록
+                     (homepage":"https://{user name}.github.io/{repository name}"
+   + "scripts" 
+      - "deploy": "gh-pages -d build"
+        (deloy가 하는 일은 gh-pages를 실행시키는 역활 build라는 경로를 가져가는 역활)
+      - "predeploy": "npm run build" 
+-> npm run deloy를 하게되면 predeploy가 먼저 실행돼서 npm run build를 실행하고 
+    이후 deloy가 실행돼서 gh-pages -d build를 통해 github page에 업로드하게된다.
+    (업로드 위치는 "homepage":..에 설정한 경로로 업로드가 된다.)
+
+
+(작업환경)
+1) node.js 설치 (npm이 자동 설치됨)
+2) npm install npx -g : node.js & npm이 설치된 상태에서 실행
+3) VS Code 설치 
+4) git 설치
+
+5) npx create-react-app {folderName}
+6) npm i gh-pages : 결과물을 github Pages에 업로드 해주는 패키지
+
+
+#Life Cycle
++ Mounting : Component생성되고 DOM 내부에 삽입될때 호출됨.
+   - constructor() : 자바스크립트에서 class를 만들때 호출된다.
+ 
+- Updating : Component가 업데이트
+- Unmounting : DOM에서 제거될 때 호출됨.(페이지가 변경될때)
+
+
+(원격 저장소 정보 가져오기)
+1) git clone https://github.com/choi8803/my-repo.git
+  (git clone "remote address" "dir name" : dir name을 생략 할 경우 
+   my-repo 저장소 이름으로 생성됨)
+2) npm install
+3) npm install npx -g : node.js & npm이 설치된 상태에서 실행
+4) npm i gh-pages : 결과물을 github Pages에 업로드 해주는 패키지

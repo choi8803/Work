@@ -1,0 +1,13 @@
+# LinkedList
+
+1. 목적
+  a. List에서 파생된 Class
+  b. LinkedList
+   - 이중 연결 리스트 형태
+   - 리스트의 경우 정방향 진행이 되지만 연결 리스트의 경우 순환 및 역방향 진행이 가능
+   - List중간에 값을 추가 할 수 있음.
+  
+  c. SortedList
+   - 리스트라기 보다는 Dictionary 형태의 자료구조
+   - Key-Value 형태로 구성되어 있으며 Key값의 경우 중복이 불가능함.
+   - SortedList의 경우 등록하는 시점에 Key를 기준으로 정렬한다.

@@ -1,0 +1,7 @@
+# UserControl
+목적 
+1. Winform에서 기본적으로 제공하는 Control외 사용자가 원하는 형태의 Control을 만들어서 사용 할 수 있음.
+2. Code를 분리해서 가독성을 높여 줄 수 있음.
+3. Control의 재사용이 뛰어남
+
+ex) Label + Button => UserControl

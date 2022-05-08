@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Loop</h1>
+    
+    <!-- 최소 한번은 실행 후 반복 -->
+    <h2>do..while</h2>
+    <script>
+        var i=0;
+        do{
+            i+=1;
+            document.write("<div>"+i+"</div>");
+        } while(i<3);
+    </script>
+
+    <!-- 조건이 일치하면 반복 -->
+    <h2>while</h2>
+    <script>
+        var i=0;
+        while(i<3){
+            document.write("<div>"+i+"</div>");
+            i+=1;
+        }
+    </script>
+    
+    <!-- 조건이 일치하면 반복 -->
+    <h2>for</h2>
+    <script>
+        for(var i=0; i<3; i++){
+            document.write("<div>"+i+"</div>");
+        }
+    </script>
+</body>
+</html>
