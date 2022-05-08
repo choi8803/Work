@@ -1,0 +1,28 @@
+#01 React App 만들기
+1) 설치환경
+ - node.js version 14 이상
+ - npm version 5.6 이상
+
+2) 명령어 
+ npx create-react-app "Folder Name"
+
+#02 수정 및 배포
+1) npm run build : 배포를 위한 build 폴더가 생성된다.
+2) npx serve -s build : build 폴더에 있는 Index.hmtl 파일을 서비스한다.
+
+#03 컴퍼넌트
+- React는 사용자 정의 Tag를 만드는 일이다.
+
+#04 Prop
+
+#05 Event
+
+#05 State
+
+#06 Create
+
+#07 Update
+
+#08 Delete
+
+
